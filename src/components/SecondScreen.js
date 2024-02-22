@@ -58,7 +58,7 @@ export default function SecondScreen({ navigation }) {
       <Text style={styles.heading2}>Or</Text>
       {!showDesignerForm && (
         <TouchableOpacity onPress={handleDesignerLogin}>
-          <Text style={styles.signupText}>Login as a Fashion designer</Text>
+          <Text style={styles.signupText}>Login as a Fashio designer</Text>
         </TouchableOpacity>
       )}
       <StatusBar style="dark" />
